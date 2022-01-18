@@ -18,7 +18,11 @@
   <slot />
 </main>
 <footer>
-  <p>&copy; 2022 Ninja Gaming Guides</p>
+  <p>
+    &copy; 2022 Ninja Gaming Guides. Images and texts from <a
+      href="https://classicreload.com/">ClassicReload.com</a
+    >
+  </p>
 </footer>
 
 <style>

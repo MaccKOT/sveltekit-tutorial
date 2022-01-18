@@ -11,7 +11,7 @@
   <slot />
 </main>
 <footer>
-  <p>&copy; 2022 Ninja Gaming Guides</p>
+  <p>&copy; 2022 Ninja Gaming Guides.</p>
 </footer>
 
 <style>
