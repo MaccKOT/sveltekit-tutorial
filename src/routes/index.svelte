@@ -1,11 +1,9 @@
 <script>
-  import Title from '$lib/title.svelte';
 </script>
 
-<Title />
 <div class="index">
   <h2>Welcome</h2>
-  <p>
+  <p class="text">
     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt laborum
     magnam deleniti recusandae, quis aperiam, architecto neque, voluptatem dicta
     expedita aut id voluptate omnis consectetur dolore! Quo quae perferendis vel
@@ -24,5 +22,10 @@
     text-align: center;
     display: block;
     margin: 20px auto;
+  }
+  .text {
+    text-align: left;
+    margin: auto 40px;
+    margin-bottom: 20px;
   }
 </style>
