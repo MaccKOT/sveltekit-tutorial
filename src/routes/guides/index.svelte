@@ -1,8 +1,9 @@
 <script context="module">
-  // script running at server and return props for use
+  // script running at server and return props for use by frontend
   export async function load({ fetch }) {
     const res = await fetch('https://jsonplaceholder.typicode.com/posts');
     const guides = await res.json();
+    // console.log(guides);
 
     if (res.ok) {
       return {
@@ -21,7 +22,6 @@
 
 <script>
   // normal frontend scripts
-
   export let guides;
 </script>
 
@@ -29,7 +29,7 @@
   <ul>
     {#each guides as guide}
       <li>
-        <a class="guides_link" href="/">{guide.title}</a>
+        <a class="guides_link" href={`/guides/${guide.id}`}>{guide.title}</a>
       </li>
     {/each}
   </ul>
