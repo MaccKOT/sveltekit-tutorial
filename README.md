@@ -2,6 +2,8 @@
 
 Original repo: [https://github.com/iamshaunjp/sveltekit-tutorial](https://github.com/iamshaunjp/sveltekit-tutorial)
 
+💻[Live version](https://romantic-wing-2dde24.netlify.app/)
+
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
 
 ## Developing
